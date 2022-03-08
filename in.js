@@ -1,13 +1,14 @@
-let personArm = {
-    name: "Armen",
-    lastname: "Danielyan",
-    "heraxos": " 095959595",
+let num = 0;
+while (true) {
+    let x = prompt("mutqagreq tiv yev yes khashvem bolor tveri gumar@");
+    if (x) {
+        num = num + +x;
+    } else {
+        break;
+    }
+
 }
-delete personArm["her im"];
-personArm.age = 39;
-alert(personArm.name + personArm.age + personArm["her im"]);
-let key = prompt("inch es uzum imanal ");
-alert(personArm[key]);
+alert(`tveri gumarn e ${num}`);
 /*
 let alphabetEnglish = "abcdefghijklmnopqrstuvwxyz";
 let text = "The quick brown fox jumps";
